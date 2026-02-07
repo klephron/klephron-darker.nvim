@@ -15,10 +15,11 @@ M.load = function()
   vim.o.termguicolors = true
 
   local sections = {
-    require("gruber-darker.groups.base"),
-    require("gruber-darker.groups.neovim"),
-    require("gruber-darker.groups.telescope"),
-    require("gruber-darker.groups.treesitter"),
+    require("gruber-darker.highlights.base"),
+    require("gruber-darker.highlights.bufferline"),
+    require("gruber-darker.highlights.neovim"),
+    require("gruber-darker.highlights.telescope"),
+    require("gruber-darker.highlights.treesitter"),
   }
 
   for _, section in ipairs(sections) do
