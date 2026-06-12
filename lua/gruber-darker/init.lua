@@ -15,8 +15,8 @@ M.load = function()
   vim.o.termguicolors = true
 
   local sections = {
-    require("gruber-darker.highlights.base"),
     require("gruber-darker.highlights.bufferline"),
+    require("gruber-darker.highlights.color"),
     require("gruber-darker.highlights.neovim"),
     require("gruber-darker.highlights.telescope"),
     require("gruber-darker.highlights.treesitter"),

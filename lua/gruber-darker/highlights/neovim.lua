@@ -118,9 +118,9 @@ M["Comment"]        = { fg = c["brown"], italic = o.italic.comment }
 M["Constant"]       = { fg = c["fg"] }
 M["String"]         = { fg = c["green"], italic = o.italic.string }
 M["Character"]      = { fg = c["green"], italic = o.italic.character }
-M["Number"]         = { fg = c["fg"] }
-M["Boolean"]        = { fg = c["fg"] }
-M["Float"]          = { fg = c["fg"] }
+M["Number"]         = { fg = c["wisteria"] }
+M["Boolean"]        = { fg = c["wisteria"] }
+M["Float"]          = { fg = c["wisteria"] }
 M["Identifier"]     = { fg = c["fg"] }
 M["Function"]       = { fg = c["niagara"] }
 M["Statement"]      = { fg = c["yellow"], bold = o.bold }
