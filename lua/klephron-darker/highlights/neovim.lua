@@ -1,7 +1,7 @@
 local M = {}
 
-local c = require("gruber-darker.colors")
-local o = require("gruber-darker.config").opts
+local c = require("klephron-darker.colors")
+local o = require("klephron-darker.config").opts
 
 
 M["Normal"]           = { fg = c["fg"], bg = c["bg"] }

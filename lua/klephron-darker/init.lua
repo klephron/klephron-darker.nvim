@@ -1,6 +1,6 @@
 local M = {}
 
-local config = require("gruber-darker.config")
+local config = require("klephron-darker.config")
 
 M.setup = function(opts)
   config.current = vim.tbl_deep_extend("force", config.defaults, opts or {})
@@ -11,15 +11,15 @@ M.load = function()
     vim.cmd("highlight clear")
   end
 
-  vim.g.colors_name = "gruber-darker"
+  vim.g.colors_name = "klephron-darker"
   vim.o.termguicolors = true
 
   local sections = {
-    require("gruber-darker.highlights.bufferline"),
-    require("gruber-darker.highlights.color"),
-    require("gruber-darker.highlights.neovim"),
-    require("gruber-darker.highlights.telescope"),
-    require("gruber-darker.highlights.treesitter"),
+    require("klephron-darker.highlights.bufferline"),
+    require("klephron-darker.highlights.color"),
+    require("klephron-darker.highlights.neovim"),
+    require("klephron-darker.highlights.telescope"),
+    require("klephron-darker.highlights.treesitter"),
   }
 
   for _, section in ipairs(sections) do

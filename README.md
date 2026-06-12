@@ -10,7 +10,7 @@
 
 ```lua
 local M = {
-  "klephron/gruber-darker.nvim",
+  "klephron/klephron-darker.nvim",
   lazy = false,
   priority = 1000,
   opts = {
