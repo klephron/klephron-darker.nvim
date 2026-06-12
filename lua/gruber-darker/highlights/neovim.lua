@@ -114,10 +114,10 @@ M["WildMenu"]         =  { fg = c["black"], bg = c["yellow"] }
 --]]
 
 
-M["Comment"]        = { fg = c["brown"], italic = o.italic.comment }
+M["Comment"]        = { fg = c["brown-1"], italic = o.italic.comment }
 M["Constant"]       = { fg = c["fg"] }
-M["String"]         = { fg = c["green"], italic = o.italic.string }
-M["Character"]      = { fg = c["green"], italic = o.italic.character }
+M["String"]         = { fg = c["green-1"], italic = o.italic.string }
+M["Character"]      = { fg = c["green-1"], italic = o.italic.character }
 M["Number"]         = { fg = c["wisteria"] }
 M["Boolean"]        = { fg = c["wisteria"] }
 M["Float"]          = { fg = c["wisteria"] }
@@ -143,7 +143,7 @@ M["Special"]        = { fg = c["quartz"] }
 M["SpecialChar"]    = { link = "Special" }
 M["Tag"]            = { fg = c["yellow"] }
 M["Delimeter"]      = { fg = c["fg"] }
-M["SpecialComment"] = { fg = c["wisteria"], bold = o.bold }
+M["SpecialComment"] = { fg = c["brown"], bold = o.bold }
 
 M["Debug"]          = { fg = c["fg+2"] }
 
