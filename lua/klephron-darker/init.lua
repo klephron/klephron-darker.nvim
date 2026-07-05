@@ -2,8 +2,8 @@ local M = {}
 
 local config = require("klephron-darker.config")
 
-M.setup = function(opts)
-  config.current = vim.tbl_deep_extend("force", config.defaults, opts or {})
+M.setup = function(cfg)
+  config.current = vim.tbl_deep_extend("force", config.default, cfg or {})
 end
 
 M.load = function()

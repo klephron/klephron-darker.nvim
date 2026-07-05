@@ -1,6 +1,6 @@
 local M = {}
 
-M.defaults = {
+M.default = {
   bold = true,
   undercurl = true,
   underline = true,
@@ -15,6 +15,6 @@ M.defaults = {
   },
 }
 
-M.opts = M.defaults
+M.current = M.default
 
 return M
